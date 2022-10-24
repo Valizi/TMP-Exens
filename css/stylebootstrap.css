@@ -10,24 +10,7 @@
 --------------------------------------------------------------*/
 
 
-a {
-  color: #ef6603;
-  text-decoration: none;
-}
 
-a:hover {
-  color: #fc8129;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
-}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -363,13 +346,13 @@ h6 {
   font-weight: 700;
 }
 
-#hero p {
+/* #hero p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
-}
+} */
 
 #hero .carousel-control-prev,
 #hero .carousel-control-next {
@@ -399,11 +382,11 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #ef6603;
+  border: 2px solid #fff821;
 }
 
 #hero .btn-get-started:hover {
-  background: #ef6603;
+  background: #fffc4838;
   color: #fff;
   text-decoration: none;
 }
@@ -525,8 +508,14 @@ section {
   overflow: hidden;
 }
 
+section, .about{
+  background-image: url('/assets/Images/logo.png');
+  background-image;
+}
+
 .section-title {
   padding-bottom: 40px;
+
 }
 
 .section-title h2 {
@@ -565,6 +554,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding-top: 80px;
+  
 }
 
 .about .content h3 {
