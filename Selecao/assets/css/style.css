@@ -10,7 +10,29 @@
 --------------------------------------------------------------*/
 
 
+body {
+  margin: 0;
+  background-color: #fff;
+}
 
+a {
+  color: #ef6603;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc8129;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -62,7 +84,7 @@
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(53, 68, 161, 0.9);
+  background: rgba(42, 44, 57, 0.9);
 }
 
 #header.header-transparent {
@@ -93,6 +115,23 @@
   margin: 0;
   max-height: 40px;
 }
+
+
+
+.fundolg {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  border-radius: 320px;
+  border-color: rgb(29, 110, 230);
+  background-image: url(/assets/Images/logo.png);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -141,7 +180,7 @@
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: rgb(2, 34, 86);
+  background: rgb(29, 110, 230);
 }
 
 .navbar .dropdown ul {
@@ -239,13 +278,13 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(20, 21, 28, 0.9);
+  background: rgba(28, 20, 20, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
-  position: absolute;
+  position: relative;
   top: 15px;
   right: 15px;
 }
@@ -296,7 +335,7 @@
 }
 
 .navbar-mobile .dropdown ul li {
-  min-width: 200px;
+  min-width: 100;
 }
 
 .navbar-mobile .dropdown ul a {
@@ -324,7 +363,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgb(2, 34, 86)0%, rgb(1, 4, 22) 100%);
+  background: linear-gradient(0deg, rgb(2, 34, 86) 0%, rgb(0, 11, 28) 100%);
   padding: 0;
 }
 
@@ -339,6 +378,29 @@
   padding-top: 60px;
 }
 
+#hero h1{
+color: #fff;
+font-size: 20px;
+
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+                   0 2px 0 hsl(174,5%,75%),
+                   0 3px 0 hsl(174,5%,70%),
+                  
+                  
+                  
+                  
+  
+                   0 0 5px rgb(10, 10, 10),
+                  0 1px 3px rgb(0, 101, 119),
+                  0 3px 5px rgb(0, 147, 147),
+                 0 5px 10px rgb(33, 91, 201),
+                0 10px 10px rgb(0, 43, 96),
+                0 11px 11px rgb(137, 239, 255);
+               
+}
+
+
+
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -346,13 +408,13 @@
   font-weight: 700;
 }
 
-/* #hero p {
+#hero p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
-} */
+}
 
 #hero .carousel-control-prev,
 #hero .carousel-control-next {
@@ -382,11 +444,11 @@
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #fff821;
+  border: 2px solid rgb(29, 110, 230);
 }
 
 #hero .btn-get-started:hover {
-  background: #fffc4838;
+  background: rgb(29, 110, 230);
   color: #fff;
   text-decoration: none;
 }
@@ -504,14 +566,12 @@
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
-
 .section-title {
   padding-bottom: 40px;
-
 }
 
 .section-title h2 {
@@ -531,7 +591,8 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fd9042;
+  background: rgb(255, 242, 18)
+  ;
   margin: 4px 10px;
 }
 
@@ -548,7 +609,64 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  padding-top: 80px;
+}
 
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .content ul li+li {
+  margin-top: 10px;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: rgb(29, 110, 230);
+  line-height: 1;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color: rgb(29, 110, 230)3;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid rgb(29, 110, 230);
+}
+
+.about .content .btn-learn-more:hover {
+  background: rgb(29, 110, 230);
+  color: #fff;
+  text-decoration: none;
+}
 
 /*--------------------------------------------------------------
 # Features
@@ -556,6 +674,7 @@ section {
 .features .nav-tabs {
   border: 0;
 }
+
 
 .features .nav-link {
   border: 1px solid #d4d6df;
@@ -580,13 +699,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #ef6603;
+  color: rgb(29, 110, 230);
 }
 
 .features .nav-link.active {
-  background: #ef6603;
+  background: rgb(29, 110, 230);
   color: #fff;
-  border-color: #ef6603;
+  border-color: rgb(29, 110, 230);
 }
 
 @media (max-width: 768px) {
@@ -633,6 +752,30 @@ section {
 
 .features .tab-pane p:last-child {
   margin-bottom: 0;
+}
+.featureinsta{
+  width: px;
+  height: 380px;
+  
+  /* border-color: rgba(249, 255, 164, 0.89); */
+  /* background-image: url(/assets/Images/Transformador.jpg); */
+  /* background-size: 370px 380px;
+  background-repeat: no-repeat;
+  background-position: center; */
+
+}
+
+.featureim{
+  width: 370px;
+  height: 370px;
+  border: solid;
+  border-radius: 7%;
+  border-color: rgba(249, 255, 164, 0.89);
+  background-image: url(/assets/Images/Transformador.jpg);
+  background-size: 370px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 /*--------------------------------------------------------------
@@ -791,11 +934,22 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
 }
 
 .portfolio .portfolio-item .portfolio-img {
-  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* evita do video passar a altura desejada do .wrap */
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -840,7 +994,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #fd9f5b;
+  color: #effd5b;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -866,7 +1020,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #fd9f5b;
+  color: #f2fd5b;
 }
 
 .portfolio .portfolio-item:hover .portfolio-img img {
