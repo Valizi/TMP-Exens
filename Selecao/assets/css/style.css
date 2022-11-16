@@ -888,6 +888,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .portfolioC {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  padding: 10px 20px;
+  grid-gap: 10px 20px;
+}
+
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
@@ -933,24 +940,24 @@ section {
   color: #ef6603;
 }
 
-.portfolio .portfolio-item {
-  display: flex;
+/* .portfolio .portfolio-item {
+  display: grid;
   justify-content: center;
   position: relative;
   
-}
+} */
 
-.portfolio .portfolio-item .portfolio-img {
+/* .portfolio .portfolio-item .portfolio-img {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
+  z-index: -1; 
   width: 100%;
   height: 100%;
-  overflow: hidden; /* evita do video passar a altura desejada do .wrap */
+  overflow: hidden; 
   display: flex;
   justify-content: center;
-}
+} */
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.8s ease-in-out;
