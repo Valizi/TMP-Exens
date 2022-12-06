@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: rgba(78, 78, 78, 0.04);
 }
 
 a {
@@ -462,9 +462,11 @@ font-size: 20px;
 
 .hero-waves {
   width: 100%;
-  height: 60px;
-  position: relative;
+  height: 100px;
+  position: absolute;
   justify-content: end;
+ 
+  
 }
 
 .wave1 use {
@@ -739,16 +741,10 @@ section {
 .features .tab-pane p:last-child {
   margin-bottom: 0;
 }
-.featureinsta{
-  width: px;
-  height: 380px;
-  
-  /* border-color: rgba(249, 255, 164, 0.89); */
-  /* background-image: url(/assets/Images/Transformador.jpg); */
-  /* background-size: 370px 380px;
-  background-repeat: no-repeat;
-  background-position: center; */
 
+.insta {
+  display: flex;
+  justify-content: center;
 }
 
 .featureim{
@@ -798,6 +794,10 @@ section {
 }
 
 .cta .cta-btn:hover {
+
+
+
+  
   background: #fff;
   color: #ef6603;
 }
