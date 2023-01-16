@@ -414,11 +414,12 @@ font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap:nowrap ;
 }
 
 #hero .container {
   display: flex;
-  align-items: center;
+ 
 }
 
 
