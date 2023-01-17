@@ -89,7 +89,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(22, 28, 77, 0.685);
+  background: rgba(42, 44, 57, 0.9);
 }
 
 #header.header-transparent {
@@ -97,7 +97,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(15, 19, 46, 0.13);
+  /* background: rgba(42, 44, 57, 0.9); */
 }
 
 #header .logo h1 {
@@ -464,11 +464,6 @@ font-size: 20px;
 
 
 }
-@media(max-width: 1024px) {
-  #hero {
-  
-}
-}
 
 @media (max-width: 768px) {
   #hero .carousel-container {
@@ -512,7 +507,7 @@ font-size: 20px;
 
 @-webkit-keyframes move-forever1 {
   0% {
-    transform: translate(100px, 0%);
+    transform: translate(85px, 0%);
   }
 
   100% {
@@ -522,7 +517,7 @@ font-size: 20px;
 
 @keyframes move-forever1 {
   0% {
-    transform: translate(100px, 0%);
+    transform: translate(85px, 0%);
   }
 
   100% {
@@ -532,7 +527,7 @@ font-size: 20px;
 
 @-webkit-keyframes move-forever2 {
   0% {
-    transform: translate(-100px, 0%);
+    transform: translate(-90px, 0%);
   }
 
   100% {

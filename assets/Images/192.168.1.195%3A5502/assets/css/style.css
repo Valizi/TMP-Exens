@@ -512,7 +512,7 @@ font-size: 20px;
 
 @-webkit-keyframes move-forever1 {
   0% {
-    transform: translate(100px, 0%);
+    transform: translate(85px, 0%);
   }
 
   100% {
@@ -522,7 +522,7 @@ font-size: 20px;
 
 @keyframes move-forever1 {
   0% {
-    transform: translate(100px, 0%);
+    transform: translate(85px, 0%);
   }
 
   100% {
@@ -532,7 +532,7 @@ font-size: 20px;
 
 @-webkit-keyframes move-forever2 {
   0% {
-    transform: translate(-100px, 0%);
+    transform: translate(-90px, 0%);
   }
 
   100% {
