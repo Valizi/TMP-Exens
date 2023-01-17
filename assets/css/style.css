@@ -129,7 +129,7 @@ h6 {
   border: solid;
   border-radius: 320px;
   border-color: rgb(29, 110, 230);
-  background-image: url(./assets/Images/logo.png);
+  background-image: url(/assets/Images/logo.png);
   background-size: 300px 300px;
   background-repeat: no-repeat;
 
