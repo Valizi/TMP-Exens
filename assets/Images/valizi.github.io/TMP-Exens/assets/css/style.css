@@ -15,11 +15,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-#content {
-  transform: scale(2.0);
-  transform-origin: 0 0;
-}
-
 a {
   color: #ef6603;
   text-decoration: none;
@@ -132,8 +127,6 @@ h6 {
   background-image: url(./assets/Images/logo.png);
   background-size: 300px 300px;
   background-repeat: no-repeat;
-
-  
   }
 
 
