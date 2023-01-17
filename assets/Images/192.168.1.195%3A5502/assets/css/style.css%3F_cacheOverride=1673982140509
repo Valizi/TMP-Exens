@@ -15,6 +15,11 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+#content {
+  transform: scale(2.0);
+  transform-origin: 0 0;
+}
+
 a {
   color: #ef6603;
   text-decoration: none;
@@ -92,7 +97,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: rgb(41 43 56 / 90%);
 }
 
 #header .logo h1 {
@@ -113,7 +118,12 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 44px;
+  border-style:solid ;
+  border-color:rgb(29, 110, 230);
+  border-radius: 50%;
+  border-width: 0.2px;
+  
 }
 
 
@@ -124,9 +134,11 @@ h6 {
   border: solid;
   border-radius: 320px;
   border-color: rgb(29, 110, 230);
-  background-image: url(./assets/Images/logo.png);
+  background-image: url(/assets/Images/logo.png);
   background-size: 300px 300px;
   background-repeat: no-repeat;
+
+  
   }
 
 
@@ -745,10 +757,27 @@ section {
   margin-bottom: 0;
 }
 
-.insta {
-  display: flex;
-  justify-content: center;
-}
+  .insta {
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: url(/assets/Images/FUNDO2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom:30px;
+    border-style:solid;
+    border-color:white;
+    border-width: 80px;
+    border-radius: 10% ;
+   
+  
+   
+  }
+  
+
 
 .featureim{
   width: 370px;
@@ -1739,6 +1768,16 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#footer .logoF img{
+  margin: 0;
+  padding: 0;
+  max-width: 230px;
+  border-style:solid ;
+  border-color:rgba(246, 221, 62, 0.903) ;
+  border-radius: 50%;
+
+}
+
 #footer {
   background: black;
   padding: 0 0 30px 0;
