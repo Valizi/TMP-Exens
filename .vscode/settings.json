@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "cSpell.words": [
+        "manutençao"
+    ],
+    "cSpell.language": "pt-BR"
 }
